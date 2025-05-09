@@ -7,6 +7,9 @@ const Navbar = () => {
         <Link to="/">
           <h1>Post Buddy</h1>
         </Link>
+        <Link to="/about">
+          <h1>About</h1>
+        </Link>
       </div>
     </header>
   );
