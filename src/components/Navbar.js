@@ -11,6 +11,14 @@ const Navbar = () => {
           <h1>About</h1>
         </Link>
       </div>
+      <h1>
+        <Link to="/">Post Buddy</Link>
+      </h1>
+      <nav>
+        <Link to="/">Home</Link>
+        <Link to="/create">New Post</Link>
+        <Link to="/about">About</Link>
+      </nav>
     </header>
   );
 };
