@@ -6,6 +6,7 @@ import PostForm from "../components/PostForm";
 
 const Home = () => {
   const [posts, setPosts] = useState(null);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
     const fetchPosts = async () => {
@@ -26,6 +27,8 @@ const Home = () => {
         {posts &&
           posts.map((post) => <PostDetails post={post} key={post._id} />)}
       </div>
+      {error && <div className="error">{error}</div>}
+      <h2>Add a new post</h2>
       <PostForm />
     </div>
   );
