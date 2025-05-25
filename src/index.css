@@ -9,7 +9,6 @@
 body {
   background: #f1f1f1;
   margin: 0;
-  font-family: "Poppins";
 }
 header {
   background: #fff;
@@ -86,7 +85,6 @@ form button {
   border: 0;
   color: #fff;
   padding: 10px;
-  font-family: "Poppins";
   border-radius: 4px;
   cursor: pointer;
 }
