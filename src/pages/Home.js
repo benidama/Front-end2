@@ -1,6 +1,4 @@
 import { useEffect, useState } from "react";
-
-// components
 import PostDetails from "../components/PostDetails";
 import PostForm from "../components/PostForm";
 
@@ -23,6 +21,7 @@ const Home = () => {
 
   return (
     <div className="home">
+      <h1>All Posts</h1>
       <div className="posts">
         {posts?.map((post) => (
           <PostDetails post={post} key={post._id} />
