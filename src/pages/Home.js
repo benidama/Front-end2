@@ -21,7 +21,7 @@ const Home = () => {
 
   return (
     <div className="home">
-      <h1>All Posts</h1>
+      <h1>All Posts from backend data</h1>
       <div className="posts">
         {posts?.map((post) => (
           <PostDetails post={post} key={post._id} />
