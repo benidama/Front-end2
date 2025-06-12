@@ -22,7 +22,7 @@ const Home = () => {
   return (
     <div className="home">
       <h1>All Posts from backend data</h1>
-      <p>Lorem is the biggest in the continent especially in the Africa. Hello Joanes my friend</p>
+      <p>Lorem is the biggest in the continent especially in the Africa</p>
       <div className="posts">
         {posts?.map((post) => (
           <PostDetails post={post} key={post._id} />
