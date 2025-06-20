@@ -4,7 +4,7 @@ const Push = () => {
       <h1>Hello my love, I really miss you very much!</h1>
       <p>
         Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur
-        adipiscing elit.
+        adipiscing elit. How can I do this myself?
       </p>
       <div>
         <h3>I want to express my deepest feeling about you my love</h3>
