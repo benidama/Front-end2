@@ -2,10 +2,9 @@ const Push = () => {
   return (
     <div>
       <h1>Hello my love, I really miss you very much!</h1>
-      <p>
+      <p class="para">
         How can I do this myself? But I will do everything in order to know all
-        necessaries. I will always
-        be with you, no matter what. I will always support you and be there for
+        necessaries. I will always support you and be there for
         you. You are my everything, and I will never let you go.
       </p>
       <div>
