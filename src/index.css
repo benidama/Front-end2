@@ -96,3 +96,10 @@ div.error {
   border-radius: 4px;
   margin: 20px 0;
 }
+
+.para {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 800;
+  
+}
