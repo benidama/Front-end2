@@ -9,7 +9,10 @@ const Push = () => {
       </p>
       <div>
         <h3>I want to express my deepest feeling about you my love</h3>
-        
+        <p>
+          How do you do my friend? I need you all you are my life and my hope.
+          I will always be with you and support you in everything. 
+        </p>
       </div>
     </div>
   );
